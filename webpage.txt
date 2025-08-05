@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>the webpage</title>
+<link rel="stylesheet" href="mystyle.css"/>
+</head>
+<body>
+<div class="header">
+<div><img src="C:\Users\golim\OneDrive\Pictures\Saved Pictures\download (3).jpg" width=150 height=150/></div>
+<div class="hcontent">
+<p>MALLA REDDY COLLEGE OF ENGINEERING FOR WOMEN</p></div>
+</div>
+
+<div class="menu">
+<ul>
+<li><a href="#" target="_blank">Home</a></li>
+<li><a href="#" target="_blank">Branches</a></li>
+<li><a href="#" target="_blank">About us</a></li>
+<li><a href="#" target="_blank">Contact us</a></li>
+</ul>
+</div>
+
+
+<div class="bcontent">
+<div class="lbody">
+<p>Malla Reddy College of Engineering for Women (MRCEW) is the brainchild of Sri. CH. MALLA REDDY, Chairman, Malla Reddy Group of Institutions, was founded in 2008 with four branches of Engineering under the aegis of Chandramma Educational Society (CES).</p>
+<h3>Vision of MRCEW</h3>
+
+Educate and empower young women in progressive areas of chosen fields and enable them to take up challenges as ethical and responsible global citizens.
+
+<h3>Mission of MRCEW</h3>
+
+An institution is aimed:<br>
+
+ To ignite the young minds with technical knowledge and essential skills to meet the requirements of industry and society.<br>
+
+ To provide value-based education to make young women competent and confident to achieve ideal empowerment.<br>
+
+ To offer the effective teaching learning practices that blends theoretical fundamentals and hands-on experience with modern infrastructural facilities.<br>
+
+ To provide a safe and secure environment in which each student is delighted to learn with ethical values.
+</div>
+
+
+
+<div class="rbody">
+<form>
+<center><h2>Registration Form</h2></center>
+<table border="1"  cellpadding="10">
+<tr>
+<td><label>Full Name</label></td>
+<td><input type="text" name="username" placeholder="enter your name"/></td>
+</tr>
+
+<tr>
+<td><label>  Hallticket No</label></td>
+<td><input type="text" name="rollno" placeholder="enter your hallticket no"/></td>
+</tr>
+
+<tr>
+<td><label>Email</label></td>
+<td><input type="email" name="Email" placeholder="enter your mail id"/></td>
+</tr>
+
+<tr>
+<td><label>Password</label></td>
+<td><input type="password" name="password" placeholder="enter your password"/></td>
+</tr>
+
+<tr>
+<td><label>Course</label></td>
+<td>
+<select> <option selected disabled>Select Course</option>
+<option value="cse">CSE</option>
+<option value="csd">CSE-DS</option>
+<option value="csml">CSE-AIML</option>
+<option value="ece">ECE</option>
+</select></td>
+</tr>
+
+<tr>
+<td><label>Gender</label></td>
+<td><input type="radio" name="gender" id="male"/>Male
+<input type="radio" name="gender" id="female"/>Female </td> 
+</tr>
+
+<tr>
+<td><label>Address</label></td>
+<td><textarea name="address" rows="10" cols="30"></textarea></td>
+</tr>
+
+</tr>
+<td colspan="2"><input type="checkbox" id="agree"/>I conform that above information is correct </td>
+
+<tr>
+<td colspan="3" align="center"><input type="submit" value="Submit"/>
+<input type="reset" value="Reset"/></td>
+</table>
+</form>
+
+</div>
+
+
+</div>
+
+
+
+<div class="footer">
+<div><p>copyright@2025</p></div>
+</div>
+
+</body>
+</html>
